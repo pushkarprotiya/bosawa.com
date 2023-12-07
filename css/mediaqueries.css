@@ -1,0 +1,21 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .top-header {
+        display: none;
+    }
+
+    .mobile_nav {
+        display: block;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .top-header {
+        display: none;
+    }
+
+    .mobile_nav {
+        display: block;
+    }
+}

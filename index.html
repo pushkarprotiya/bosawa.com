@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLING MAIN CSS LINK -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- BOOTSTRAP CSS LINK -->
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <!-- BOX ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- owl crousel css link -->
+    <!-- owl carousel cdnjs -->
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.green.css">
+    <script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <!-- media queries css link -->
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <title>Fashion Website</title>
+</head>
+
+<body>
+    <!-- TOP NAV SECTION -->
+
+    <div class="top-header bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 ">
+                    <div class="row">
+                        <div class="col-6 mt-1">
+                            <a href=""><img src="assets/logos/BSAWA-LOGO1.png" alt="" width="100%"></a>
+                        </div>
+                        <div class="col-6 align-self-center mt-2">
+                            <div class="row">
+                                <div class="col-1 align-self-center">
+                                    <i class='bx bx-map'></i>
+                                </div>
+                                <div class="col-10">
+                                    <div class="top-location">
+                                        <small>Delivering to Delhi 110002</small>
+                                        <p><a href="">Update Location</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 align-self-center">
+                    <div class="search_form">
+                        <form action="">
+                            <div class="row gx-0">
+                                <div class="col-2">
+                                    <select name="" id="" class="w-100">
+                                        <option value="All">All</option>
+                                    </select>
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" class="w-100" placeholder="Search Bosawa.com">
+                                </div>
+                                <div class="col-2">
+                                    <button class="w-100"><i class='bx bx-search-alt-2'></i></button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="col-3 align-self-center">
+                    <div class="row">
+                        <div class="col-5 mt-3">
+                            <div class="dropdown">
+                                <div class="top-location">
+                                    <small>Hello Sign in</small>
+                                    <p class="dropdown-toggle" data-bs-toggle="dropdown" style="cursor: pointer;">Account & Lists</p>
+                                    <ul class="dropdown-menu" id="customer_drop">
+                                        <li><a class="dropdown-item" href="#"><i class='bx bx-user'></i> &nbsp; Customer Login</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class='bx bx-store-alt'></i>&nbsp; &nbsp; Become Seller</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-3">
+                            <div class="return_order_text">
+                                <a href="">
+                                    <small>Returns & </small>
+                                    <p> Orders</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4 mt-4">
+                            <div class="cart_btn text-center">
+                                <button><i class='bx bx-cart-alt'></i> Cart </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- mobile screen nav -->
+
+    <div class="mobile_nav">
+        <div class="container pt-3 pb-3">
+            <div class="row">
+                <div class="col-6">
+                    <a href="" class="navbar_brand"><img src="assets/logos/BSAWA-LOGO1.png" alt="" width="100"></a>
+                </div>
+                <div class="col-6 align-self-center">
+                    <div class="text-end">
+                        <a href="" data-bs-toggle="collapse" data-bs-target="#collapseExample"><i class='bx bx-search-alt-2'></i></a>
+                        &nbsp;
+                        <a href=""><i class='bx bx-user'></i></a>
+                        &nbsp;
+                        <a href=""><i class='bx bx-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="collapse" id="collapseExample">
+        <div class="container">
+            <div class="card-body pb-2">
+                <div class="search_form">
+                    <form action="">
+                        <div class="row gx-0">
+                            <div class="col-2">
+                                <select name="" id="" class="w-100">
+                                    <option value="All">All</option>
+                                </select>
+                            </div>
+                            <div class="col-8">
+                                <input type="text" class="w-100" placeholder="Search Bosawa.com">
+                            </div>
+                            <div class="col-2">
+                                <button class="w-100"><i class='bx bx-search-alt-2'></i></button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- second nav section -->
+
+    <nav class="navbar navbar-expand-lg" id="desk_nav">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                        <a class="nav-link active" aria-current="page" href="#"><i class='bx bxs-hand-left'></i> All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fresh</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sell</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Best Sellers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Today's Deal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mobiles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Customer Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Electronics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New Releases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home & Kitchen</a>
+                    </li>
+                </ul>
+
+                <div class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class='bx bxl-gmail'></i> Companyinfo@gmail.com</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class='bx bxs-phone-call'></i> +91 9912345678</a>
+                    </li>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- NAVBAR OFFCANVAS -->
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
+        <div class="offcanvas-header bg-dark text-white">
+            <h5 class="offcanvas-title">Hello , sign in</h5>
+            <button type="button" data-bs-dismiss="offcanvas" style="background: none; border: none;"><i class='bx bxs-x-circle text-white fs-5'></i></button>
+        </div>
+        <div class="offcanvas-body" id="off_body_1">
+            <h5>Trending</h5>
+            <ul>
+                <li><a href="">Best Sellers</a></li>
+                <li><a href="">New Releases</a></li>
+                <li><a href="">Movers and Shakers</a></li>
+            </ul>
+
+            <h5 class="mt-4">Help & Settings</h5>
+
+            <ul>
+                <li><a href="">Your Account</a></li>
+                <li><a href="">Customer Services</a></li>
+                <li><a href="">Sign in</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Carousel section -->
+
+
+    <div class="banner">
+        <!-- <img src="assets/banner/webbanner-new_exp_3.jpg" alt="" class="img-fluid"> -->
+
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="assets/banner_img/crsl-bg-2.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/banner_img/crsl-bg-1.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- product crousel -->
+
+    <div class="container pt-5 pb-5">
+        <h5>MEDAL WORTHY BRANDS TO BAG</h5>
+        <div class="owl-carousel owl-theme mt-5">
+            <div class="item">
+                <img src="assets/product_items/product_crsl_1.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/product_items/product_crsl_2.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/product_items/product_crsl_3.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/product_items/product_crsl_4.webp" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- product crousel -->
+
+    <div class="container pt-5 pb-5">
+        <h5>GRAND GLOBAL BRANDS</h5>
+        <div class="owl-carousel owl-theme mt-5">
+            <div class="item">
+                <img src="assets/product_items/6b6c7162-0086-4967-90c8-ec4792ec200c1690773011082-Dorothy_Perkin-_Boohoo.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/product_items/product_crsl_6.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/product_items/product_crsl_7.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/product_items/product_crsl_8.webp" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- second product section -->
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="text-center">
+                                            <img src="assets/product_items/p-1.webp" alt="" class="w-75">
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>REDMI Mobiles</h6>
+                                        <span class="text-success">Grab Or Gone</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="text-center">
+                                            <img src="assets/product_items/p-2.webp" alt="" class="w-75">
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>REDMI Mobiles</h6>
+                                        <span class="text-success">Grab Or Gone</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 mt-3">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="text-center">
+                                            <img src="assets/product_items/p-3.webp" alt="" class="w-75">
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>REDMI Mobiles</h6>
+                                        <span class="text-success">Grab Or Gone</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 mt-3">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="text-center">
+                                            <img src="assets/product_items/p-4.webp" alt="" class="w-75">
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>REDMI Mobiles</h6>
+                                        <span class="text-success">Grab Or Gone</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="text-center">
+                                            <img src="assets/product_items/p-5.webp" alt="" class="w-75">
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>REDMI Mobiles</h6>
+                                        <span class="text-success">Grab Or Gone</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="text-center">
+                                            <img src="assets/product_items/p-6.webp" alt="" class="w-75">
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>REDMI Mobiles</h6>
+                                        <span class="text-success">Grab Or Gone</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 mt-3">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="text-center">
+                                            <img src="assets/product_items/p-7.webp" alt="" class="w-75">
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>REDMI Mobiles</h6>
+                                        <span class="text-success">Grab Or Gone</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 mt-3">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="text-center">
+                                            <img src="assets/product_items/p-8.webp" alt="" class="w-75">
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>REDMI Mobiles</h6>
+                                        <span class="text-success">Grab Or Gone</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-4 col-sm-12 p-0">
+                <div class="text-end">
+                    <img src="assets/banner_img/fashion bg.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer section -->
+
+    <footer>
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-12 col-lg-3 col-md-3 col-sm-12 mt-3">
+                    <h6>Get to Know Us</h6>
+                    <ul>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; About Us</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Careers</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Press Releases</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Bosawa Science</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3 col-md-3 col-sm-12 mt-3">
+                    <h6>Connect with Us</h6>
+                    <ul>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Facebook</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Twitter</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3 col-md-3 col-sm-12 mt-3">
+                    <h6>Make Money with Us</h6>
+                    <ul>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Sell on Bosawa.com</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Sell Under Bosawa Accelerator</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Protect and Build Your Brand</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Bosawa Global Selling</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Become an Affiliate</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Fulfillment by Bosawa </a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Advertise Your Products</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Bosawa Pay on Marchants</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3 col-md-3 col-sm-12 mt-3">
+                    <h6>Let Us Help You</h6>
+                    <ul>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Your Account</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Returns Centre</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Instagram</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; 100% Purchase Protection</a></li>
+                        <li><a href=""><i class='bx bxs-chevrons-right'></i> &nbsp; Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bottom Footer -->
+
+    <div class="bottom_footer">
+        <div class="container pt-2 pb-2">
+            <div class="text-center">
+                <span>© Copyright 2023 Bosawa.com | All Rights Reserved | Design Offering by <a href="">Pushkar Protiya</a></span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 4,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true
+        });
+        $('.play').on('click', function() {
+            owl.trigger('play.owl.autoplay', [1000])
+        })
+        $('.stop').on('click', function() {
+            owl.trigger('stop.owl.autoplay')
+        })
+    </script>
+
+
+
+
+
+    <!-- BOOTSTRAP JS LINK -->
+    <script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS SCRIPT -->
+    <script src="javascript/javascript.js"></script>
+    <!-- Owl crousel js link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="OwlCarousel2-2.3.4//dist/owl.carousel.min.js"></script>
+</body>
+
+</html>

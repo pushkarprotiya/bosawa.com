@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.top-location small {
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.top-location p a {
+    font-size: 14px;
+    color: black;
+}
+
+.top-location p {
+    font-size: 14px;
+    color: black;
+}
+
+.search_form {
+    background: white;
+    border: 1px solid #e6e6e6;
+}
+
+.search_form select {
+    background-color: #e6e6e6;
+    border: none;
+    outline: none;
+    padding: 0.6rem;
+}
+
+.search_form input {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.6rem;
+}
+
+.search_form button {
+    border: none;
+    background: linear-gradient(to right, #1344c9, #129bea);
+    color: white;
+    padding: 0.6rem;
+
+}
+
+.return_order_text a small {
+    font-size: 10px;
+    color: black;
+    font-weight: 800;
+}
+
+.return_order_text a p {
+    color: black;
+    font-size: 18px;
+}
+
+.cart_btn button {
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+#desk_nav {
+    background: linear-gradient(to left, #1344c9, #129bea);
+}
+
+#desk_nav .navbar-nav .nav-item .nav-link {
+    color: white;
+    /* font-weight: 600; */
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+#off_body_1 h5 {
+    font-weight: 800;
+    border-bottom: 1px solid #c8c8c8;
+    padding-bottom: 18px;
+}
+
+#off_body_1 ul {
+    list-style: none;
+    padding: 0;
+    /* margin-top: 18px; */
+}
+
+#off_body_1 ul li {
+    margin-top: 10px;
+}
+
+#off_body_1 ul li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
+
+/* margin-top: 19px;
+    margin-left: -9px; */
+
+#customer_drop {
+    margin-top: 20px !important;
+    margin-left: -9px !important;
+}
+
+#customer_drop li a {
+    font-size: 13px;
+}
+
+/* mobile size nav */
+
+.mobile_nav i {
+    font-size: 20px;
+    color: black;
+}
+
+.mobile_nav {
+    display: none;
+}
+
+
+/* footer section */
+
+footer {
+    background: linear-gradient(to right, #1344c9, #129bea);
+}
+
+footer h6{
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 28px;
+}
+footer ul li a{
+    color: white;
+    font-size: 12px;
+}
+footer ul li{
+    margin-top: 10px;
+}
+.bottom_footer span{
+    font-size: 0.7rem;
+}
+.bottom_footer{
+    background: white;
+}
